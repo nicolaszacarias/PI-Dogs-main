@@ -1,0 +1,110 @@
+.fondo {
+    background-image: url(../img/brick-wall-ge4082ab65_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    background-attachment:fixed;
+    position: absolute;
+    top: 10;
+    left: 0;
+    overflow-y: scroll;
+  }
+.back-button{ padding: 0.9em 2.5em;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #743030;
+    background-color: rgb(114, 113, 113);
+    border-radius: 7px;
+    border: solid transparent;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    z-index: 1;}
+.title-create{
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+    letter-spacing: 6px;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-shadow: 2px 2px 15px rgb(14, 158, 224);
+  }
+
+label{
+    color: azure;
+    font-family: monospace;
+    font-size: 30px;
+}
+.error{
+    color: crimson;
+}
+.containerCv{
+    color: #ccc;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background-color: #39434b;
+    box-shadow: 7px 7px 15px #353db8,
+        7px 7px 15px #292929;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+        transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.90;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit1{
+    text-align: center;
+}
+.submit {
+    width: 140px;
+    height: 50px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(204, 179, 179);
+    font-family: monospace;
+    font-weight: 700;
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+   .submit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(124, 31, 31);
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   .submit:hover::before {
+    width: 100%;
+   }
+   
+   button:hover {
+    color: rgb(143, 134, 134);
+   }
+   
+   button:active:before {
+    background: #4ea0a3;
+   }
+   .boxes{
+      float: left;
+   }
+   .boxes-1{
+    float: right;
+ }

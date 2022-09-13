@@ -1,0 +1,50 @@
+.paginado {
+    text-decoration: none;
+  }
+
+.listContainer {
+    display: inline-block;
+    flex-direction: row;
+  }
+
+.number {
+    color: aqua;
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Monospace, Arial;
+  }
+
+  .linkss {
+    padding: 9px;
+    cursor: pointer;
+    background: none;
+    color: black;
+    border: none;
+  }
+  .linkss:hover {
+    border-radius: 5px;
+    border: solid 0.5px;
+  }
+
+@media (min-width: 320px) {
+
+.containeru::-webkit-scrollbar:horizontal {
+    display: none;
+}
+
+.containeru {
+    overflow-y: hidden;
+    overflow-x: auto;
+    justify-content: center;
+  }
+
+.paginado {
+    flex-direction: row;
+    width: 100%;
+}
+.listContainer {
+    width: 320px;
+  }
+
+}

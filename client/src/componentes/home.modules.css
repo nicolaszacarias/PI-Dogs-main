@@ -1,0 +1,280 @@
+.containersx {
+  background-image: url(../img/wall-g717ce0c5a_1920.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0px;
+  flex-direction: column;
+  position: fixed;
+  overflow-y: scroll;
+}
+.titlex {
+  color: #fff;
+  font-family: Monospace, Arial;
+  font-size: 50px;
+}
+.contenedor-filtro {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.5em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+
+.selectA_Z {
+  background: #707070;
+  border: none;
+  font-size: 13px;
+  padding: 7px;
+  width: 100px;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
+  border-radius: 9px;
+  font-family: Microsoft JhengHei UI, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.selectA_Z:hover {
+  background: rgba(80, 78, 78, 0.699);
+}
+
+.selectCont {
+  background: #707070;
+  border: none;
+  font-size: 13px;
+  padding: 7px;
+  width: 165px;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
+  border-radius: 9px;
+  font-family: Microsoft JhengHei UI, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btns {
+  margin: 1px;
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.171);
+  font-family:  Microsoft JhengHei UI, sans-serif;
+  border-radius: 10px;
+  font-size: 16px;
+  border: solid 1px #2f2f2e;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+  transition: all 2s;
+  background-color: rgba(255, 255, 255, 0.185);
+}
+
+.selectCont:hover {
+  background: rgba(80, 78, 78, 0.699);
+}
+
+.selectFilter {
+  background: #707070;
+  border: none;
+  font-size: 13px;
+  padding: 7px;
+  width: 110px;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
+  border-radius: 9px;
+  font-family: Microsoft JhengHei UI, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.selectFilter:hover {
+  background: rgba(80, 78, 78, 0.699);
+}
+
+.selectActivities {
+  background: #707070;
+  border: none;
+  font-size: 13px;
+  padding: 7px;
+  width: 175px;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
+  border-radius: 9px;
+  font-family: Microsoft JhengHei UI, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.selectActivities:hover {
+  background: rgba(80, 78, 78, 0.699);
+}
+
+.remove {
+  background: #707070;
+  border: none;
+  font-size: 13px;
+  padding: 7px;
+  width: 140px;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
+  border-radius: 9px;
+  font-family: Microsoft JhengHei UI, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.4s;
+} 
+
+.remove:hover {
+  background: rgba(80, 78, 78, 0.699);
+}
+
+.containerCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+.cards {
+  margin: 0px 25px 25px 25px;
+  background: rgba(255, 255, 255, 0.877);
+  border-radius: 7px;
+  transition-duration: 0.4s;
+}
+
+.cards:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.card {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #707070;
+  border-radius: 9px;
+}
+
+@media (min-width: 320px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  .filtersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .remove,
+  .selectA_Z,
+  .selectCont,
+  .selectActivities,
+  .selectFilter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerCards {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  .inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .remove,
+  .selectA_Z,
+  .selectCont,
+  .selectActivities,
+  .selectFilter {
+    width: 90%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerCards {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (min-width: 780px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  .containerCards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 1155px) {
+  .filtersContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs {
+    max-width: 1155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .remove,
+  .selectA_Z,
+  .selectWei,
+  .selectTemp,
+  .selectFilter {
+    margin-left: 20px;
+  }
+  .remove:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1365px) {
+  .containerCards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+  

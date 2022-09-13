@@ -1,0 +1,97 @@
+.general {
+    background-image: url(../img/fondodetail.jpg);
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.containerx {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background-color: #707070;
+    border-radius: 15px;
+    padding: 15px 30px 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Microsoft JhengHei UI, sans-serif;
+}
+
+.titlexs {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 45px;
+}
+
+.imgx {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.btnx {
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    font-family: Microsoft JhengHei UI, sans-serif;
+    background: #fff;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.btnx:hover {
+    background: rgba(80, 78, 78, 0.699);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.loadingx {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.hr {
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    .general {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .titlexs {
+        font-size: 27px;
+    }
+
+    .containerx {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
